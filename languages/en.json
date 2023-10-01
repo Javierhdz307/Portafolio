@@ -1,0 +1,41 @@
+{
+    "menu" : {
+    "menu-1": "Skills",
+    "menu-2": "Projects",
+    "menu-3": "Contact me"
+    },
+    "language" : {
+        "spanish": "Spanish",
+        "english": "English",
+        "portuguese": "Portuguese"
+    },
+    "section1-left" : {
+        "presentation": "HI, IM MR NIGHT",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "s1-btn":"Download CV"
+    },
+    "section2-title" : {
+        "s2-f": "S",
+        "s2-title": "kills"
+    },
+    "section3-title" : {
+        "s3-f": "P",
+        "s3-title": "rojects",
+        "pr1-title": "Lorem ipsum dolor",
+        "pr1-des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "pr2-title": "Lorem ipsum dolor",
+        "pr2-des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "pr3-title": "Lorem ipsum dolor",
+        "pr3-des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "s3-btncode": "CODE",
+        "s3-btnview": "VIEW"
+    },
+    "footer" : {
+        "ft-f": "C",
+        "ft-title": "ontact me",
+        "form-name": "Full name",
+        "form-email": "E-mail",
+        "form-message": "Message",
+        "form-btn": "SEND"
+    }
+}

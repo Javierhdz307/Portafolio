@@ -1,0 +1,42 @@
+{
+    "menu" : {
+        "menu-1": "Habilidades",
+        "menu-2": "Proyectos",
+        "menu-3": "Contactame"
+    },
+    "language" : {
+        "spanish": "Español",
+        "english": "Ingles",
+        "portuguese": "Portugues"
+    },
+    "section1-left" : {
+        "presentation": "HOLA, SOY MR NIGHT",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "s1-btn":"Descargar CV"
+    },
+    "section2-title" : {
+        "s2-f": "H",
+        "s2-title": "abilidades"
+    },
+    "section3-title" : {
+        "s3-f": "P",
+        "s3-title": "royectos",
+        "pr1-title": "Lorem ipsum dolor",
+        "pr1-des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "pr2-title": "Lorem ipsum dolor",
+        "pr2-des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "pr3-title": "Lorem ipsum dolor",
+        "pr3-des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "s3-btncode": "CODIGO",
+        "s3-btnview": "VER"
+    },
+    "footer" : {
+        "ft-f": "C",
+        "ft-title": "ontactame",
+        "form-name": "Nombre Completo",
+        "form-email": "Correo",
+        "form-message": "Mensaje",
+        "form-btn": "ENVIAR"
+    }
+
+}

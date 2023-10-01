@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>Portafolio</title>
+</head>
+<header>
+    <div class="flex-grow">
+        <svg class="logo" viewBox="0 0 342 35" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 .1a9.7 9.7 0 0 0 7 7h11l.5.1v27.6h6.8V7.3L26 7h11a9.8 9.8 0 0 0 7-7H0zm238.6 0h-6.8v34.8H263a9.7 9.7 0 0 0 6-6.8h-30.3V0zm-52.3 6.8c3.6-1 6.6-3.8 7.4-6.9l-38.1.1v20.6h31.1v7.2h-24.4a13.6 13.6 0 0 0-8.7 7h39.9v-21h-31.2v-7h24zm116.2 28h6.7v-14h24.6v14h6.7v-21h-38zM85.3 7h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zm0 13.8h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zm0 14.1h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zM308.5 7h26a9.6 9.6 0 0 0 7-7h-40a9.6 9.6 0 0 0 7 7z" 
+            fill="currentColor"> <!--Curent color se queda asi para luego pasar el logo a otros colores -->
+            </path>
+        </svg>
+    </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="#" style="--i:1" data-section="menu" data-value="menu-1">Habilidades</a></li>
+                <li><a href="#"style="--i:2" data-section="menu" data-value="menu-2">Proyectos</a></li>
+                <li><a href="#"style="--i:3" data-section="menu" data-value="menu-3">Contactame</a></li>
+            </ul>
+        </nav>
+
+    <div class="functions flex-grow">
+        <div class="language">
+                <div class="language-selected">
+                   
+                </div>
+                <ul  id="flags">
+                    <li data-language="en"><a class="en" data-section="language" data-value="english">English</a></li> <!-- en-US -->
+                    <li data-language="es"><a class="es" data-section="language" data-value="spanish">Español</a></li> <!-- es --->
+                    <li data-language="pr"><a class="br" data-section="language" data-value="portuguese">Português</a></li> <!-- pt-BR -->
+                </ul>
+        </div>
+        <div>
+            <button style="--i:1" class="circle" id="mode">
+                <div class="slider-mode">
+                    <div class="slider-mode_section">
+                        <i class="bi bi-brightness-low-fill"></i>
+                    </div>
+                    <div class="slider-mode_section">
+                        <i class="bi bi-moon-fill"></i>
+                    </div>
+                </div>
+                
+
+            </button>
+        </div>
+    </div>
+</header>
+
+<body>
+    <div class="section1">
+        <div class="s1-left">
+            <h1 data-section="section1-left" data-value="presentation">HI, IM MR NIGHT</h1>
+            <div class="flex">
+                <h2 class="primary"><span class="multiple-text"></span></h2>
+            </div>
+            <p data-section="section1-left" data-value="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <a class="btn-cv" href="#" data-section="section1-left" data-value="s1-btn">Download CV</a>
+
+        </div>
+        <div class="s1-right">
+            <div class="container-slider">
+                <div class="slider" id="slider">
+                    <div class="slider__section flex">
+                        
+                        <img src="img/img1.png" alt="" class="slider__img">
+                    </div>
+                    <div class="slider__section">
+                        <img src="img/img2.png" alt="" class="slider__img">
+
+                    </div>
+                    <div class="slider__section">
+                        <img src="img/img3.png" alt="" class="slider__img">
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="Container-slider-btn">
+                <div class="slider__btn slider__btn--left-P flex-grow">
+                    <div class="slider__btn--left" id="btn-left">&#60</div>
+                </div>
+                <div>
+
+                </div>
+                <div class="slider__btn flex-grow">
+                    <div class="slider__btn--right" id="btn-right">&#62</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section2">
+        <div class="flex title-s2">
+            <h2 class="primary" data-section="section2-title" data-value="s2-f">S</h2><h2 data-section="section2-title" data-value="s2-title">Kills</h2>
+        </div>
+        <div class="flex img-skills">
+            <img src="img/html.png" class="img-skills">
+            <img src="img/css.png" class="img-skills">
+            <img src="img/js.png" class="img-skills">
+        </div>
+        <div class="flex img-skills">
+            <img src="img/bootstrap.png" class="img-skills">
+        </div>
+        <div class="flex title-s2">
+            <h2 class="primary">W</h2><h2>ordpress</h2>
+        </div>
+        <div class="flex img-skills">
+            <img src="img/figma.png" class="img-skills">
+            <img src="img/ps.png" class="img-skills">
+            <img src="img/ai.png" class="img-skills">
+        </div>
+        <div class="flex img-skills">
+            <img src="img/git.png" class="img-skills">
+            <img src="img/githubimage.png" class="img-skills">
+        </div>
+    </div>
+    <div class="section3">
+        <div class="flex title-s2">
+            <h2 class="primary" data-section="section3-title" data-value="s3-f">P</h2><h2 data-section="section3-title" data-value="s3-f">rojects</h2>
+        </div>
+        <div class="container-cards">
+            <div class="cards">
+                <div class="image-section img-01">
+                </div>
+                <div class="content">
+                    <h3 data-section="section3-title" data-value="pr1-title">Lorem ipsum dolor</h3>
+                    <p data-section="section3-title" data-value="pr1-des">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    <div class="flex btn-cards">
+                        <a class="button-cards" href="#"><span class="bi bi-github"></span>CODE</a>
+                        <a class="button-cards" href="#"><span class="bi bi-eye"></span>VIEW</a>
+                    </div>
+                        
+                </div>
+            </div>
+            <div class="cards">
+                <div class="image-section img-02">
+                </div>
+                <div class="content">
+                    <h3 data-section="section3-title" data-value="pr2-title">Lorem ipsum dolor</h3>
+                    <p data-section="section3-title" data-value="pr2-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    <div class="flex btn-cards">
+                        <a class="button-cards" href="#"><span class="bi bi-github"></span>CODE</a>
+                        <a class="button-cards" href="#"><span class="bi bi-eye"></span>VIEW</a>
+                    </div>  
+                </div>   
+            </div>
+            <div class="cards">
+                <div class="image-section img-03">
+                </div>
+                <div class="content">
+                    <h3 data-section="section3-title" data-value="pr3-title">Lorem ipsum dolor</h3>
+                    <p data-section="section3-title" data-value="pr3-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    <div class="flex btn-cards">
+                        <a class="button-cards" href="#"><span class="bi bi-github"></span>CODE</a>
+                        <a class="button-cards" href="#"><span class="bi bi-eye"></span>VIEW</a>
+                    </div>       
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container-footer">
+            <div class="box">
+                <div class="title-form">
+                    <h2 class="primary" data-section="footer" data-value="ft-f">C</h2><h2 class="blanco" data-section="footer" data-value="ft-title">ontact Me</h2>
+                </div>
+                <form>
+                    <p>
+                        <label for="name" data-section="footer" data-value="form-name">Full Name <span>*</span></label>
+                        <input name="name" required type="text" id="name" placeholder="Juan">
+                    </p>
+                    <p>
+                        <label for="message" data-section="footer" data-value="form-message">Message</label>
+                    </p>
+                    <p>
+                        <label for="email" data-section="footer" data-value="form-email">E-Mail <span>*</span></label>
+                        <input name="email" type="text" id="email" required placeholder="juan@gmail.com">
+                    </p>
+                    <p>
+                        <textarea id="message" name="message" id="" rows="4"></textarea>
+                    </p>
+                    
+                    <p class="all">
+                        <button type="submit" data-section="footer" data-value="form-btn">Send</button>
+                    </p>
+                </form>
+
+            </div>
+            <div class="social-media">
+                <div class="flex btn-socialmedia">
+                    <a class="button-socialmedia" href="https://linkedin.com/in/ricardo-barahona-front-end" target="_blank"><span class="bi bi-linkedin"></span></a>
+                    <a class="button-socialmedia" href="https://github.com/Javierhdz307" target="_blank"><span class="bi bi-github"></span></a>
+                    <a class="button-socialmedia" href="mailto: contact@gmail.com"><span class="bi bi-envelope-fill"></span></a>
+                </div>
+            </div>
+        </div>
+        
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="assets/script.js"></script>
+</body>
+</html>
